@@ -47,8 +47,8 @@
 		1048210116C5973B00F2AFC8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		1048210316C5974800F2AFC8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		1092225A1738302F001117B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		CDAE0E3B182A6A7A00283B69 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleVendor.framework; path = "../../PebbleSDK-1.12/iOS/PebbleVendor.framework"; sourceTree = "<group>"; };
-		CDAE0E3C182A6A7A00283B69 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = "../../PebbleSDK-1.12/iOS/PebbleKit.framework"; sourceTree = "<group>"; };
+		CDAE0E3B182A6A7A00283B69 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleVendor.framework; path = "../../../PebbleSDK-1.12/iOS/PebbleVendor.framework"; sourceTree = "<group>"; };
+		CDAE0E3C182A6A7A00283B69 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = "../../../PebbleSDK-1.12/iOS/PebbleKit.framework"; sourceTree = "<group>"; };
 		CDAE0E3F182AE07D00283B69 /* Heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,9 +116,8 @@
 				1030EB6D16C4DB1A006F46EA /* WDAppDelegate.m */,
 				1030EB6416C4DB1A006F46EA /* Supporting Files */,
 			);
-			name = FitDis;
-			path = "/Users/patrick/pebble-dev/projects/FitDisiOS/FitDis";
-			sourceTree = "<absolute>";
+			path = FitDis;
+			sourceTree = SOURCE_ROOT;
 		};
 		1030EB6416C4DB1A006F46EA /* Supporting Files */ = {
 			isa = PBXGroup;

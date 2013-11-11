@@ -19,6 +19,7 @@ static void sync_error_callback(DictionaryResult dict_error, AppMessageResult ap
 }
 
 static void sync_tuple_changed_callback(const uint32_t key, const Tuple* new_tuple, const Tuple* old_tuple, void* context) {
+  APP_LOG(APP_LOG_LEVEL_DEBUG, "App Message Sync Callback: [key=%lu][value=%s]", key, new_tuple->value->cstring);
   switch (key) {
   case HEART_RATE_KEY:
     // App Sync keeps the new_tuple around, so we may use it directly

@@ -1,0 +1,15 @@
+{
+  "uuid": "517bbe33-fc34-4310-93ae-04f67c2bf5fd",
+  "shortName": "Pebble Fit Dis",
+  "longName": "Pebble Fit Dis",
+  "companyName": "Crazy Corporation",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {},
+  "resources": {
+    "media": []
+  }
+}
